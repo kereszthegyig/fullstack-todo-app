@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+.todoItem{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+li {
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.text:hover{
+    cursor: pointer;
+}
+
+
+ul {
+    padding-left: 10px;
+    padding-right: 30px;
+    width:100%;
+    margin-top: 80px;
+}
+
+.text{
+    flex-basis:95%;
+}
+.btn{
+    margin-left: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+}
+
+form.editForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0;
+    margin-top: 20px;
+    width: 0%;
+    height: 0%;
+    animation: 0.3s fadeIn 0s forwards;
+}
+form.editForm input{
+
+    padding: 3px;
+    font-size: 18px;
+}
+
+@keyframes fadeIn{
+    100%{
+        opacity: 1;
+        width: 60%;
+
+    }
+}
