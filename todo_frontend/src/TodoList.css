@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+
 .todoList {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: default;
-
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 header{
@@ -35,6 +37,7 @@ header h2{
     flex-direction: column;
     align-items:center;
     width: 80%;
+    max-width: 900px;
     
 }
 
